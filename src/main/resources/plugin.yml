@@ -1,0 +1,5 @@
+name: DiscordChatPlugin
+main: mcbe.kake26s.discordchatplugin.Core
+version: 0.0.1
+author: kake26s
+api: 1.0.7

@@ -1,0 +1,3 @@
+取扱説明書
+
+discord.json
