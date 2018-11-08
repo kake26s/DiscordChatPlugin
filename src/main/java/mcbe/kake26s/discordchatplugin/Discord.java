@@ -2,13 +2,10 @@ package mcbe.kake26s.discordchatplugin;
 
 import mcbe.kake26s.discordchatplugin.event.DiscordEvent;
 import mcbe.kake26s.discordchatplugin.exception.NotFoundChannelException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import sx.blah.discord.api.ClientBuilder;
 import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.handle.obj.IChannel;
 import sx.blah.discord.util.DiscordException;
-import sx.blah.discord.util.RateLimitException;
 import sx.blah.discord.util.RequestBuffer;
 
 
@@ -31,7 +28,6 @@ public class Discord{
         return discord;
     }
 
-    /** construct **/
     public Discord() {
         this.client = this.createClient();
         this.client.getDispatcher().registerListener(new DiscordEvent());

@@ -12,8 +12,6 @@ import sx.blah.discord.handle.impl.events.guild.channel.message.MessageReceivedE
 import sx.blah.discord.handle.obj.IChannel;
 import sx.blah.discord.handle.obj.IUser;
 
-import java.io.UnsupportedEncodingException;
-
 /**
  * Discordに関するイベント
  */
