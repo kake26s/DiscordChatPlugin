@@ -1,9 +1,8 @@
 # DiscordChatPlugin
 DiscordでNukkitのサーバーのメッセージを受信送信するプラグインです。
  
-
 ## ダウンロード 
- 
+https://github.com/kake26s/DiscordChatPlugin/blob/master/DiscordChatPlugin.jar
 
 ## 使用方法
 blogにまとめます 
